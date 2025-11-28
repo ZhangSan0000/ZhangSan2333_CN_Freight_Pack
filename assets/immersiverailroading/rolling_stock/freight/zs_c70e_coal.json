@@ -1,0 +1,66 @@
+{
+    "name": "C70E with coal",
+    "modeler": "ZhangSan2333",
+    "pack": "",
+  
+    "model": "immersiverailroading:models/rolling_stock/freight/zhangsan/c70e_coal.obj",
+    "model_gauge_m": 1.435,
+    "recommended_gauge_m": 1.435,
+    "show_current_load_only": false,
+
+    "sound_dampening_percentage": 0.75,
+    "scale_pitch": true,
+  
+    "properties": {
+        "weight_kg": 85000,
+        "independent_brake": true,
+        "pressure_brake": true,
+        "swayMultiplier": 1,
+        "tiltMultiplier": 1
+    },
+
+    "passenger": {
+		"slots": 256,
+		"center_x": 0,
+		"center_y": 0.7,
+		"length": 7.023,
+		"width": 3.243
+	},
+    
+    "freight": {
+            "slots": 9,
+            "width": 9
+        },
+    
+    "tex_variants": {
+        "C70E 1862357": "c70e_1862357",
+        "C70E 1862336": "c70e_1862336",
+        "C70E 1862366": "c70e_1862366",
+        "C70E 1862333": "c70e_1862333"
+    },
+
+    "pivot": {
+        "front": 4.605, 
+        "rear": -4.605
+    },
+  
+    "couplers": {
+		"front_offset": -0.08,
+		"front_slack":0.005,
+		"rear_offset": -0.08,
+		"rear_slack":0.005
+	},
+
+    "sounds":{
+		"wheels": "sounds/default/track.ogg",
+		"flange_min_yaw":0.5,
+		"flange":"sounds/default/curve_noise.ogg",
+		"sliding":"sounds/default/freight_brake.ogg",
+		"collision": "sounds/default/collision.ogg",
+		"coupling": "sounds/default/coupling.ogg",
+        "couple":"immersiverailroading:models/rolling_stock/freight/zs_couple.ogg",
+		"clack": "sounds/default/freight2wheel.ogg",
+		"clack_front": "sounds/default/freight2_2wheel_fast.ogg",
+		"clack_rear": "sounds/default/freight2_2wheel.ogg"
+	}
+}

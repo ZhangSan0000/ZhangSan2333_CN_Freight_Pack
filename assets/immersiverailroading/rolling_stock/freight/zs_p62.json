@@ -1,0 +1,85 @@
+{
+    "name": "P62",
+    "modeler": "space.bilibili.com/389447259",
+    "pack": "",
+  
+    "model": "immersiverailroading:models/rolling_stock/freight/zhangsan/p62.obj",
+    "model_gauge_m": 1.435,
+    "recommended_gauge_m": 1.435,
+    "show_current_load_only": false,
+
+    "sound_dampening_percentage": 0.75,
+    "scale_pitch": true,
+  
+    "properties": {
+        "weight_kg": 23400,
+        "independent_brake": true,
+        "pressure_brake": true,
+        "swayMultiplier": 1,
+        "tiltMultiplier": 1
+    },
+
+    "passenger": {
+		"slots": 256,
+		"center_x": 0,
+		"center_y": 0.7,
+		"length": 8.292,
+		"width": 3.084
+	},
+    
+    "tex_variants": {
+            "P62a": "p62a",
+            "P62b": "p62b",
+            "P62c": "p62c",
+            "P62d": "p62d",
+            "P62e": "P62e"    
+    },
+
+    "freight": {
+            "slots": 150,
+            "width": 15
+        },
+  
+
+    "pivot": {
+        "front": 6.05, 
+        "rear": -6.05
+    },
+  
+    "couplers": {
+		"front_offset": -0.08,
+		"front_slack":0.005,
+		"rear_offset": -0.08,
+		"rear_slack":0.005
+	},
+
+    "sounds":{
+		"wheels": "sounds/default/track.ogg",
+		"flange_min_yaw":0.5,
+		"flange":"sounds/default/curve_noise.ogg",
+		"sliding":"sounds/default/freight_brake.ogg",
+		"collision": "sounds/default/collision.ogg",
+		"coupling": "sounds/default/coupling.ogg",
+        "couple":"immersiverailroading:models/rolling_stock/freight/zs_couple.ogg",
+		"clack": "sounds/default/freight2wheel.ogg",
+		"clack_front": "sounds/default/freight2_2wheel_fast.ogg",
+		"clack_rear": "sounds/default/freight2_2wheel.ogg"
+	},
+
+	"animations": 	[
+		{
+			"control_group": "CF",
+			"animatrix": "immersiverailroading:models/rolling_stock/locomotives/ps62n/cf.anim",
+			"mode": "PLAY_FORWARD",
+			"frames_per_tick": 3.0,
+			"sound": {}
+		},
+		{
+			"control_group": "CR",
+			"animatrix": "immersiverailroading:models/rolling_stock/locomotives/ps62n/cr.anim",
+			"mode": "PLAY_FORWARD",
+			"frames_per_tick": 3.0,
+			"sound": {}
+		}
+	]
+}

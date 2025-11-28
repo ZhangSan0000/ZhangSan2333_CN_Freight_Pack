@@ -1,0 +1,79 @@
+{
+    "name": "22G1 Rear",
+    "modeler": "ZhangSan2333",
+    "pack": "",
+  
+    "model": "immersiverailroading:models/rolling_stock/freight/c20ft/c20ft_rear.obj",
+    "model_gauge_m": 1.435,
+    "recommended_gauge_m": 1.435,
+    "show_current_load_only": false,
+
+    "sound_dampening_percentage": 0.75,
+    "scale_pitch": true,
+  
+    "properties": {
+        "weight_kg": 2300,
+        "independent_brake": true,
+        "pressure_brake": true,
+        "swayMultiplier": 1,
+        "tiltMultiplier": 1,
+        "fuel_efficiency_%": 100,
+		"fuel_capacity_l": 9000,
+		"horsepower": 9600,
+		"tractive_effort_lbf": 95000,
+		"max_speed_kmh": 888,
+		"linear_brake_control": true,
+		"multi_unit_capable":true
+    },
+
+    "passenger": {
+		"slots": 256,
+		"center_x": 0,
+		"center_y": 2.9,
+		"length": 3.0,
+		"width": 2.44
+	},
+
+    "tex_variants": {
+        "CRCT1": "crct1",
+        "CRCT2": "crct2",
+        "CRCT3": "crct3",
+        "CR1": "cr1",
+        "CR2": "cr2",
+        "CR3": "cr3",
+        "CR4": "cr4",
+        "CR5": "cr5",
+        "CR OLD 1"	: "cr_old_1",
+"CR OLD 2"	: "cr_old_2",
+"CR OLD 3"	: "cr_old_3",
+"CR OLD 4"	: "cr_old_4",
+"CR OLD 5"	: "cr_old_5",
+"CR OLD 6"	: "cr_old_6",
+"CR OLD 7"	: "cr_old_7",
+"CR OLD 8"	: "cr_old_8",
+"Blue 1"	: "blue1",
+"Blue 2"	: "blue2",
+"Gray 1"	: "gray1",
+"Gray 2"	: "gray2",
+"Green"	: "green",
+"Orange"	: "orange",
+"Pink"	: "pink",
+"Red"	: "red",
+"Yellow"	: "yellow"
+    },
+    
+    "freight": {
+            "slots": 27,
+            "width": 9
+        },
+
+    "pivot": {
+        "front": 2, 
+        "rear": -2
+    },
+  
+    "couplers": {
+        "front_offset": -3.0605,
+        "rear_offset": -3.0845
+    }
+}

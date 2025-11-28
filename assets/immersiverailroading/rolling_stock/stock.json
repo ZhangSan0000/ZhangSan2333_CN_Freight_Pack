@@ -1,0 +1,29 @@
+{
+    "freight": 
+    [
+        "zs_bx70b",
+        "zs_c20ft_front",
+        "zs_c20ft_rear",
+        "zs_c40ft",
+        "zs_c45g1",
+        "zs_c62ak",
+        "zs_c62ak_coal",
+        "zs_c70e",
+        "zs_c70e_coal",
+        "zs_gq70",
+        "zs_nx17bk",
+        "zs_nx17k",
+        "zs_p62",
+        "zs_p62n",
+        "zs_p70_new",
+        "zs_pb",
+        "zs_x6bk",
+        "zs_x70",
+        "zs_x70_2025"
+    ],
+    "locomotives": ["zs_ps62n"],
+    "passenger": [],
+    "tank": [],
+    "tender": [],
+    "hand_car": []
+}

@@ -1,0 +1,63 @@
+{
+    "name": "BX70B",
+    "modeler": "ZhangSan2333",
+    "pack": "",
+  
+    "model": "immersiverailroading:models/rolling_stock/freight/zhangsan/bx70b.obj",
+    "model_gauge_m": 1.435,
+    "recommended_gauge_m": 1.435,
+    "show_current_load_only": false,
+
+    "sound_dampening_percentage": 0.75,
+    "scale_pitch": true,
+  
+    "properties": {
+        "weight_kg": 25300,
+        "independent_brake": true,
+        "pressure_brake": true,
+        "swayMultiplier": 1,
+        "tiltMultiplier": 1
+    },
+
+    "passenger": {
+		"slots": 256,
+		"center_x": 0,
+		"center_y": 0.7,
+		"length": 13.268,
+		"width": 3.125
+	},
+    
+    "freight": {
+            "slots": 63,
+            "width": 9
+        },
+    
+    "tex_variants": {
+        "BX70B 5800309": "bx70b_5800309"
+    },
+
+    "pivot": {
+        "front": 10.25, 
+        "rear": -10.25
+    },
+  
+    "couplers": {
+		"front_offset": -0.08,
+		"front_slack":0.005,
+		"rear_offset": -0.08,
+		"rear_slack":0.005
+	},
+
+    "sounds":{
+		"wheels": "sounds/default/track.ogg",
+		"flange_min_yaw":0.5,
+		"flange":"sounds/default/curve_noise.ogg",
+		"sliding":"sounds/default/freight_brake.ogg",
+		"collision": "sounds/default/collision.ogg",
+		"coupling": "sounds/default/coupling.ogg",
+        "couple":"immersiverailroading:models/rolling_stock/freight/zs_couple.ogg",
+		"clack": "sounds/default/freight2wheel.ogg",
+		"clack_front": "sounds/default/freight2_2wheel_fast.ogg",
+		"clack_rear": "sounds/default/freight2_2wheel.ogg"
+	}
+}

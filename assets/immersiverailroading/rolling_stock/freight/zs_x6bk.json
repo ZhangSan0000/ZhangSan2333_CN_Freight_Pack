@@ -1,0 +1,65 @@
+{
+    "name": "X6BK",
+    "modeler": "ZhangSan2333",
+    "pack": "",
+  
+    "model": "immersiverailroading:models/rolling_stock/freight/zhangsan/x6bk.obj",
+    "model_gauge_m": 1.435,
+    "recommended_gauge_m": 1.435,
+    "show_current_load_only": false,
+
+    "sound_dampening_percentage": 0.75,
+    "scale_pitch": true,
+  
+    "properties": {
+        "weight_kg": 22700,
+        "independent_brake": true,
+        "pressure_brake": true,
+        "swayMultiplier": 1,
+        "tiltMultiplier": 1
+    },
+
+    "passenger": {
+		"slots": 256,
+		"center_x": 0,
+		"center_y": 0.7,
+		"length": 8.242,
+		"width": 3.265
+	},
+    
+    "freight": {
+            "slots": 81,
+            "width": 9
+        },
+    
+    "tex_variants": {
+        "X6BK 5251532": "x6bk_5251532",
+        "X6BK 5253093": "x6bk_5253093",
+        "X6BK 5253536": "x6bk_5253536"
+    },
+
+    "pivot": {
+        "front": 5.46, 
+        "rear": -5.46
+    },
+  
+    "couplers": {
+		"front_offset": -0.08,
+		"front_slack":0.005,
+		"rear_offset": -0.08,
+		"rear_slack":0.005
+	},
+
+    "sounds":{
+		"wheels": "sounds/default/track.ogg",
+		"flange_min_yaw":0.5,
+		"flange":"sounds/default/curve_noise.ogg",
+		"sliding":"sounds/default/freight_brake.ogg",
+		"collision": "sounds/default/collision.ogg",
+		"coupling": "sounds/default/coupling.ogg",
+        "couple":"immersiverailroading:models/rolling_stock/freight/zs_couple.ogg",
+		"clack": "sounds/default/freight2wheel.ogg",
+		"clack_front": "sounds/default/freight2_2wheel_fast.ogg",
+		"clack_rear": "sounds/default/freight2_2wheel.ogg"
+	}
+}

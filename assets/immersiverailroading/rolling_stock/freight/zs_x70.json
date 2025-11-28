@@ -1,0 +1,69 @@
+{
+    "name": "X70",
+    "modeler": "space.bilibili.com/389447259",
+    "pack": "",
+  
+    "model": "immersiverailroading:models/rolling_stock/freight/zhangsan/x70.obj",
+    "model_gauge_m": 1.435,
+    "recommended_gauge_m": 1.435,
+    "show_current_load_only": false,
+
+    "sound_dampening_percentage": 0.75,
+    "scale_pitch": true,
+  
+    "properties": {
+        "weight_kg": 22400,
+        "independent_brake": true,
+        "pressure_brake": true,
+        "swayMultiplier": 1,
+        "tiltMultiplier": 1
+    },
+
+    "passenger": {
+		"slots": 256,
+		"center_x": 0,
+		"center_y": 0.7,
+		"length": 6.818,
+		"width": 3.175
+	},
+    
+    "freight": {
+            "slots": 9,
+            "width": 9
+        },
+    
+    "tex_variants": {
+        "X70a": "x70a",
+        "X70b": "x70b",
+        "X70c": "x70c",
+        "X70 5229665": "x70_5229665",
+        "X70 5230981": "x70_5230981",
+        "X70 5244452": "x70_5244452"
+
+    },
+
+    "pivot": {
+        "front": 4.5, 
+        "rear": -4.5
+    },
+  
+    "couplers": {
+		"front_offset": -0.08,
+		"front_slack":0.005,
+		"rear_offset": -0.08,
+		"rear_slack":0.005
+	},
+
+    "sounds":{
+		"wheels": "sounds/default/track.ogg",
+		"flange_min_yaw":0.5,
+		"flange":"sounds/default/curve_noise.ogg",
+		"sliding":"sounds/default/freight_brake.ogg",
+		"collision": "sounds/default/collision.ogg",
+		"coupling": "sounds/default/coupling.ogg",
+        "couple":"immersiverailroading:models/rolling_stock/freight/zs_couple.ogg",
+		"clack": "sounds/default/freight2wheel.ogg",
+		"clack_front": "sounds/default/freight2_2wheel_fast.ogg",
+		"clack_rear": "sounds/default/freight2_2wheel.ogg"
+	}
+}
