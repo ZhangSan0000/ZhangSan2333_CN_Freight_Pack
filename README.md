@@ -1,10 +1,10 @@
-# ImmersiveRailroading_CN_Freight_Pack
-
-**Made by ZhangSan2333**
+# ZhangSan2333's_CN_Freight_Pack
 
 简体中文  [English](./README_en_US.md)
 
-本追加包为用于沉浸铁路模组的中国常见铁路货车追加包。
+本追加包为用于沉浸铁路模组（ImmersiveRailroading，俗称“IR”）和真实火车模组（RealTrainMod，俗称“RTM”）的中国常见铁路货车追加包。
+
+适用RTM部分的追加包暂未更新到最新模型状态，仅将零散的车辆包合并。
 
 一些痛车涂装暂未询问图片授权，处于删除状态。
 
@@ -12,7 +12,9 @@
 
 Minecraft 1.12.2 + Forge 14.23.5.2860 + Optfine HD_U_G6_Pre1
 
-ImmersiveRailroading 1.10.0 + UniversalModCore-1.12.2-forge-1.2.2-3d12767 + Track API 1.2
+IR:ImmersiveRailroading 1.10.0 + UniversalModCore-1.12.2-forge-1.2.2-3d12767 + Track API 1.2
+
+RTM:fixRTM 2.0.27 + NGTLib 2.10.21 + RealTrainMod 2.10.24
 
 MC分配了16G内存
 
@@ -54,7 +56,8 @@ MC分配了16G内存
 
 *张子扬*
 
-### 更新日志
+
+### 更新日志（IR部分）
 
 #### 2025年
 

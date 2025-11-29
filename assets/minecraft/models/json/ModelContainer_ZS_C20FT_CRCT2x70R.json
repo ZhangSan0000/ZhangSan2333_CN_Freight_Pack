@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_C20FT_CRCT2x70R",
+  "containerModel": "Model_C20FT_CRx70R.mqoz",
+  "containerTexture": "textures/container/crct2.png",
+	"buttonTexture": "textures/container/Button_C20FT_CRCT2x70R.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}

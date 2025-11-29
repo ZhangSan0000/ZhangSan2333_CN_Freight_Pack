@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_c70_coal",
+  "containerModel": "Model_c70_coal.mqoz",
+  "containerTexture": "textures/container/Model_c70_coal.png",
+	"buttonTexture": "textures/container/Model_c70_coal.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}

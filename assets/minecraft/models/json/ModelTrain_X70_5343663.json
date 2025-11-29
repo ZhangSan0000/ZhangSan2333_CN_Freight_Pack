@@ -1,0 +1,45 @@
+{
+  "trainName": "X70_5343663",
+  "trainType": "CC",
+
+  "trainModel2": {
+      "modelFile": "X70a.mqoz",
+      "textures": [["mat2", "textures/train/X70/X70_5343663.png"]]
+  },
+  "bogieModel2": {
+      "modelFile": "zk6x70.mqoz",
+      "textures": [["mat2", "textures/train/zhangsan/zk6.png"]],
+      "rendererPath":"scripts/Render_zk6x70lun.js"
+  },
+  "isSingleTrain": true,
+  "buttonTexture": "textures/train/X70/button_X70_5343663.png",
+  "sound_BrakeRelease": "train.o220_release",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_DoorOpen": "train.door",
+  "sound_DoorClose": "train.door",
+  "sound_Horn": "train.rtm_wh_00l",
+  "soundScriptPath": "scripts/sound_trailer.js",
+
+  "doCulling": true,
+  "smoothing": true,
+  "playerPos": [[0, 0.2, 6.0], [0, 0.2, -6.0]],
+  "bogiePos": [[0.0, 0.0, 4.5], [0.0, 0.0, -4.5]],
+  "door_right": [
+    {
+    "objects": ["FTRr"],
+    "pos": [0.0, 1.0, 0.0],
+    "transform": [[-6.0, 0.0, 0.0, 1.0]],
+    "childParts": []}
+  ],
+  "door_left": [
+    {
+    "objects": ["FTRl"],
+    "pos": [0.0, 1.0, 0.0],
+    "transform": [[6.0, 0.0, 0.0, 1.0]],
+    "childParts": []}
+  ],
+  "maxSpeed": [0.2, 0.45, 1, 1.66, 5],
+  "trainDistance":6.733,
+  "accuracy": "LOW",
+  "tags": "X70"
+}
