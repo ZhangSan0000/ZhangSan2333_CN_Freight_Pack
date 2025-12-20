@@ -1,8 +1,8 @@
 {
   "containerName": "ZS_C20FT_CAI",
   "containerModel": "Model_C20FT_CR.mqoz",
-  "containerTexture": "textures/container/Model_C20FT_CAI.png",
-	"buttonTexture": "textures/container/Button_C20FT_CAI.png",
+  "containerTexture": "textures/container/c20ft/Model_C20FT_CAI.png",
+	"buttonTexture": "textures/container/button/Button_C20FT_CAI.png",
 	"containerWidth": 0,
   "containerHeight": 2.5908,
 	"containerLength": 0,

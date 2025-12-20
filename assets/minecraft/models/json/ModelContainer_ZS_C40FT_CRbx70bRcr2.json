@@ -2,7 +2,7 @@
   "containerName": "ZS_C40FT_CRbx70bRcr2",
   "containerModel": "Model_C40FT_CRbx70bR.mqoz",
   "containerTexture": "textures/container/cr40ft_cr2.png",
-	"buttonTexture": "textures/container/Button_C40FT_CRbx70bRcr2.png",
+	"buttonTexture": "textures/container/button/Button_C40FT_CRbx70bRcr2.png",
 	"containerWidth": 0,
   "containerHeight": 2.5908,
 	"containerLength": 0,

@@ -1,8 +1,8 @@
 {
   "containerName": "ZS_C20FT_CRCT4",
   "containerModel": "Model_C20FT_CR.mqoz",
-  "containerTexture": "textures/container/crct4.png",
-	"buttonTexture": "textures/container/Button_C20FT_CRCT4.png",
+  "containerTexture": "textures/container/c20ft/crct4/cr.png",
+	"buttonTexture": "textures/container/button/Button_C20FT_CRCT4.png",
 	"containerWidth": 0,
   "containerHeight": 2.5908,
 	"containerLength": 0,
