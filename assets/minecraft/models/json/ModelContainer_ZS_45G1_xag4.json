@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_45G1_xag4",
+  "containerModel": "Model_ZS_C45G1.mqoz",
+  "containerTexture": "textures/container/45G1/xag4/c45g1.png",
+	"buttonTexture": "textures/container/button/Button_45G1_xag4.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}

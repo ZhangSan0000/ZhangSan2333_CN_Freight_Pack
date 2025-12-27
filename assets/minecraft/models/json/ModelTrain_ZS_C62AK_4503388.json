@@ -1,0 +1,34 @@
+{
+    "trainName": "ZS_C62AK_4503388",
+    "trainType": "CC",
+  
+    "trainModel2": {
+        "modelFile": "c62ak.mqoz",
+        "textures": [["mat1", "textures/train/c62/c62ak_4503388.png"]]
+    },
+    "bogieModel2": {
+        "modelFile": "zk2c62.mqoz",
+        "textures": [["mat1", "textures/train/zhangsan/zk2.png"]],
+        "rendererPath":"scripts/Render_zk2c62lun.js"
+    },
+    "isSingleTrain": true,
+    "buttonTexture": "textures/train/c62/button_c62ak_4503388.png",
+    "sound_BrakeRelease": "train.o220_release",
+    "sound_BrakeRelease2": "train.brakeR_w",
+    "sound_DoorOpen": "train.door",
+    "sound_DoorClose": "train.door",
+    "sound_Horn": "train.rtm_wh_00l",
+    "soundScriptPath": "scripts/sound_trailer.js",
+  
+    "doCulling": true,
+    "smoothing": true,
+    "playerPos": [[-1.7, 0.76, 6.37], [1.7, 0.76, -6.37]],
+    "bogiePos": [[0.0, 0.0, 4.35], [0.0, 0.0, -4.35]],
+
+    "maxSpeed": [0.2, 0.45, 1, 1.66, 5],
+    "trainDistance": 6.719,
+    "accuracy": "LOW",
+
+
+    "tags": "C62"
+  }

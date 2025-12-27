@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_22G1_MAERSK",
+  "containerModel": "Model_C20FT_CR.mqoz",
+  "containerTexture": "textures/container/22G1/Model_C20FT_MAERSK.png",
+	"buttonTexture": "textures/container/button/Button_22G1_MAERSK.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}

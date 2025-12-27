@@ -1,0 +1,64 @@
+{
+  "trainName": "ZS_PB_7009203",
+  "trainType": "CC",
+
+  "trainModel2": {
+      "modelFile": "pb.mqoz",
+      "textures": [["mat1", "textures/train/pb/pb_7009203/mat1.png"],
+                   ["mat2", "textures/train/pb/pb_7009203/mat2.png"],
+                   ["mat3", "textures/train/pb/pb_7009203/mat3.png"],
+                   ["mat4", "textures/train/pb/pb_7009203/mat4.png"]]
+  },
+  "bogieModel2": {
+    "modelFile": "zk2pb.mqoz",
+    "textures": [["mat1", "textures/train/zhangsan/zk2.png"],
+                 ["mat4", "textures/train/pb/pb_7009203/mat4.png"]],
+    "rendererPath":"scripts/Render_zk2pblun.js"
+},
+  "isSingleTrain": true,
+  "buttonTexture": "textures/train/pb/pb_7009203/button.png",
+  "sound_BrakeRelease": "train.o220_release",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_DoorOpen": "train.door",
+  "sound_DoorClose": "train.door",
+  "sound_Horn": "train.rtm_wh_00l",
+  "soundScriptPath": "scripts/sound_trailer.js",
+
+  "doCulling": true,
+  "smoothing": true,
+  "playerPos": [[0, 3.2, 6.0], [0, 3.2, -6.0]],
+  "bogiePos": [[0.0, 0.0, 6.0], [0.0, 0.0, -6.0]],
+
+  "door_right": [
+    {
+        "objects": ["door3"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 1.3]],
+        "childParts": []},
+    {
+        "objects": ["door4"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -1.3]],
+        "childParts": []}
+  ],
+  "door_left": [
+    {
+        "objects": ["door1"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 1.3]],
+        "childParts": []},
+    {
+        "objects": ["door2"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -1.3]],
+        "childParts": []}
+  ],
+
+  "maxSpeed": [0.2, 0.45, 1, 1.66, 5],
+  "trainDistance":8.965,
+  "accuracy": "LOW",
+  "tags": "PB"
+
+
+
+}

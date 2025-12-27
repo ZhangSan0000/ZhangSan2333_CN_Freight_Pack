@@ -1,0 +1,36 @@
+{
+  "trainName": "ZS_GQ70_0210701",
+  "trainType": "CC",
+
+  "trainModel2": {
+      "modelFile": "gq70.mqoz",
+      "textures": [["mat1", "textures/train/gq70/gq70_0210701/mat1.png"],
+                   ["mat2", "textures/train/gq70/gq70_0210701/mat2.png"],
+                   ["mat3", "textures/train/gq70/gq70_0210701/mat3.png"],
+                   ["mat4", "textures/train/gq70/gq70_0210701/mat4.png"],
+                   ["mat101", "textures/train/zhangsan/fengguan.png"]]
+  },
+  "bogieModel2": {
+      "modelFile": "zk6gq70.mqoz",
+      "textures": [["mat1", "textures/train/zhangsan/zk6.png"],
+                   ["mat2", "textures/train/gq70/gq70_0210701/mat2.png"]],
+      "rendererPath":"scripts/Render_zk6gq70lun.js"
+  },
+  "isSingleTrain": true,
+  "buttonTexture": "textures/train/gq70/button_gq70_0210701.png",
+  "sound_BrakeRelease": "train.o220_release",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_DoorOpen": "train.door",
+  "sound_DoorClose": "train.door",
+  "sound_Horn": "train.rtm_wh_00l",
+  "soundScriptPath": "scripts/sound_trailer.js",
+
+  "doCulling": true,
+  "smoothing": true,
+  "playerPos": [[0, 0.2, 6.0], [0, 0.2, -6.0]],
+  "bogiePos": [[0.0, 0.0, 4.025], [0.0, 0.0, -4.025]],
+  "maxSpeed": [0.2, 0.45, 1, 1.66, 5],
+  "trainDistance":6.108,
+  "accuracy": "LOW",
+  "tags": "GQ70"
+}

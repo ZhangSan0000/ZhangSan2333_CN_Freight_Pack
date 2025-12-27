@@ -1,0 +1,221 @@
+{
+  "trainName": "ZS_C70E_1862333",
+  "trainType": "CC",
+
+  "trainModel2": {
+      "modelFile": "c70e.mqoz",
+      "textures": [["mat1", "textures/train/c70/c70e_1862333/c70e.png"],
+                   ["mat3", "textures/train/c70/CRRC_QIQIHAR.png"],
+                   ["mat4", "textures/train/c70/c70e_1862333/c70e.png"],
+                   ["mat101", "textures/train/zhangsan/fengguan.png"]]
+  },
+  "bogieModel2": {
+    "modelFile": "zk6c70.mqoz",
+    "textures": [["mat1", "textures/train/c70/c70e.png"],
+                 ["mat2", "textures/train/zhangsan/zk6.png"]],
+    "rendererPath":"scripts/Render_zk6c70lun.js"
+},
+  "isSingleTrain": true,
+  "buttonTexture": "textures/train/c70/button_c70e_1862333.png",
+  "sound_BrakeRelease": "train.o220_release",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_DoorOpen": "train.door",
+  "sound_DoorClose": "train.door",
+  "sound_Horn": "train.rtm_wh_00l",
+  "soundScriptPath": "scripts/sound_trailer.js",
+
+  "doCulling": true,
+  "smoothing": true,
+  "playerPos": [[-1.7, 0.76, 6.37], [1.7, 0.76, -6.37]],
+  "bogiePos": [[0.0, 0.0, 4.605], [0.0, 0.0, -4.605]],
+
+  "door_left": [
+    {
+      "objects": ["doorL"],
+      "pos": [1.58, 1.044, 0.0],
+      "transform": [[173, 0.0, 0.0, 1.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL2"],
+      "pos": [1.596, -0.055, 0.0],
+      "transform": [[-40, 0.0, 0.0, 1.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL3"],
+      "pos": [1.596, -0.055, 0.0],
+      "transform": [[70, 0.0, 0.0, 1.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL01"],
+      "pos": [0.0, -0.044, 5.672],
+      "transform": [[-86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL02"],
+      "pos": [0.0, -0.044, 3.922],
+      "transform": [[-87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL03"],
+      "pos": [0.0, -0.044, 2.172],
+      "transform": [[-88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL04"],
+      "pos": [0.0, -0.044, 0.422],
+      "transform": [[-86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL05"],
+      "pos": [0.0, -0.044, -1.328],
+      "transform": [[-88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL06"],
+      "pos": [0.0, -0.044, -3.078],
+      "transform": [[-87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL07"],
+      "pos": [0.0, -0.044, -4.828],
+      "transform": [[-87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL11"],
+      "pos": [0.0, -0.044, -5.672],
+      "transform": [[86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL12"],
+      "pos": [0.0, -0.044, -3.922],
+      "transform": [[87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL13"],
+      "pos": [0.0, -0.044, -2.172],
+      "transform": [[88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL14"],
+      "pos": [0.0, -0.044, -0.422],
+      "transform": [[86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL15"],
+      "pos": [0.0, -0.044, 1.328],
+      "transform": [[88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL16"],
+      "pos": [0.0, -0.044, 3.078],
+      "transform": [[87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL17"],
+      "pos": [0.0, -0.044, 4.828],
+      "transform": [[87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorL20"],
+      "pos": [1.550, 2.110, 0.0],
+      "transform": [[77, 0.0, 0.0, 1.0]],
+      "childParts": []}
+  ],
+  "door_right": [
+    {
+      "objects": ["doorR"],
+      "pos": [-1.58, 1.044, 0.0],
+      "transform": [[-173, 0.0, 0.0, 1.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR2"],
+      "pos": [-1.596, -0.055, 0.0],
+      "transform": [[40, 0.0, 0.0, 1.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR3"],
+      "pos": [-1.596, -0.055, 0.0],
+      "transform": [[-70, 0.0, 0.0, 1.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR01"],
+      "pos": [0.0, -0.044, 5.672],
+      "transform": [[-86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR02"],
+      "pos": [0.0, -0.044, 3.922],
+      "transform": [[-87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR03"],
+      "pos": [0.0, -0.044, 2.172],
+      "transform": [[-88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR04"],
+      "pos": [0.0, -0.044, 0.422],
+      "transform": [[-86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR05"],
+      "pos": [0.0, -0.044, -1.328],
+      "transform": [[-88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR06"],
+      "pos": [0.0, -0.044, -3.078],
+      "transform": [[-87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR07"],
+      "pos": [0.0, -0.044, -4.828],
+      "transform": [[-87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR11"],
+      "pos": [0.0, -0.044, -5.672],
+      "transform": [[86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR12"],
+      "pos": [0.0, -0.044, -3.922],
+      "transform": [[87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR13"],
+      "pos": [0.0, -0.044, -2.172],
+      "transform": [[88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR14"],
+      "pos": [0.0, -0.044, -0.422],
+      "transform": [[86, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR15"],
+      "pos": [0.0, -0.044, 1.328],
+      "transform": [[88, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR16"],
+      "pos": [0.0, -0.044, 3.078],
+      "transform": [[87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR17"],
+      "pos": [0.0, -0.044, 4.828],
+      "transform": [[87, 1.0, 0.0, 0.0]],
+      "childParts": []},
+    {
+      "objects": ["doorR20"],
+      "pos": [-1.550, 2.110, 0.0],
+      "transform": [[-77, 0.0, 0.0, 1.0]],
+      "childParts": []}
+  ],
+  
+  "maxSpeed": [0.2, 0.45, 1, 1.66, 5],
+  "trainDistance":6.988,
+  "accuracy": "LOW",
+  "tags": "C70E"
+}

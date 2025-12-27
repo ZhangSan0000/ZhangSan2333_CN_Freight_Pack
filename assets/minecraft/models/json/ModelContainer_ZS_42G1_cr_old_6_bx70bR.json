@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_42G1_cr_old_6_bx70bR",
+  "containerModel": "Model_C40FT_CRbx70bR.mqoz",
+  "containerTexture": "textures/container/42G1/cr_old_6/c40ft.png",
+	"buttonTexture": "textures/container/button/Button_42G1_cr_old_6_bx70bR.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}

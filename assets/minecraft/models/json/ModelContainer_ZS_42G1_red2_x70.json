@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_42G1_red2_x70",
+  "containerModel": "Model_C40FT_CRx70.mqoz",
+  "containerTexture": "textures/container/42G1/red2/c40ft.png",
+	"buttonTexture": "textures/container/button/Button_42G1_red2_x70.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}

@@ -1,0 +1,11 @@
+{
+  "containerName": "ZS_22G1_cr_old_2",
+  "containerModel": "Model_C20FT_CR.mqoz",
+  "containerTexture": "textures/container/22G1/cr_old_2/cr.png",
+	"buttonTexture": "textures/container/button/Button_22G1_cr_old_2.png",
+	"containerWidth": 0,
+  "containerHeight": 2.5908,
+	"containerLength": 0,
+  "doCulling": true,
+  "tags": "ngt5479"
+}
