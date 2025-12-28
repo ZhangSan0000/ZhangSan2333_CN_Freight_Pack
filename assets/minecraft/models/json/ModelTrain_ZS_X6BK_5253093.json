@@ -12,7 +12,7 @@
     "bogieModel2": {
         "modelFile": "zk2x6bk.mqoz",
         "textures": [["mat1", "textures/train/zhangsan/zk2.png"],
-                     ["mat4", "textures/train/X6BK/x6bk_5253093/mat4.png"]],
+                     ["mat2", "textures/train/zhangsan/13.png"]],
         "rendererPath":"scripts/Render_zk2x6bklun.js"
     },
     "isSingleTrain": true,

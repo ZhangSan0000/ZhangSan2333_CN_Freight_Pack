@@ -6,9 +6,10 @@
         "modelFile": "NX17BK.mqoz",
         "textures": [["mat1", "textures/train/NX17/nx17bk_5282953.png"]]
     },
-    "bogieModel2": {
+        "bogieModel2": {
         "modelFile": "zk2nx17bk.mqoz",
-        "textures": [["mat1", "textures/train/zhangsan/zk2.png"]],
+        "textures": [["mat1", "textures/train/zhangsan/zk2.png"],
+                     ["mat2", "textures/train/zhangsan/13.png"]],
         "rendererPath":"scripts/Render_zk2nx17bklun.js"
     },
     "isSingleTrain": true,

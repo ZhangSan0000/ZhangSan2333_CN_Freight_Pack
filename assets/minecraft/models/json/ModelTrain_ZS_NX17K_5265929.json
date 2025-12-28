@@ -8,7 +8,8 @@
     },
     "bogieModel2": {
         "modelFile": "zk2nx17k.mqoz",
-        "textures": [["mat1", "textures/train/zhangsan/zk2.png"]],
+        "textures": [["mat1", "textures/train/zhangsan/zk2.png"],
+                     ["mat2", "textures/train/zhangsan/13.png"]],
         "rendererPath":"scripts/Render_zk2nx17bklun.js"
     },
     "isSingleTrain": true,
