@@ -7,7 +7,10 @@
       "textures": [["mat1", "textures/train/pb/pb_7700659/mat1.png"],
                    ["mat2", "textures/train/pb/pb_7700659/mat2.png"],
                    ["mat3", "textures/train/pb/pb_7700659/mat3.png"],
-                   ["mat4", "textures/train/pb/pb_7700659/mat4.png"]]
+                   ["mat4", "textures/train/pb/pb_7700659/mat4.png"],
+                   ["mat7", "textures/train/zhangsan/inner1.png"],
+                   ["mat8", "textures/train/zhangsan/inner2.png"],
+                   ["mat101", "textures/train/zhangsan/fengguan.png"]]
   },
   "bogieModel2": {
     "modelFile": "zk2pb.mqoz",

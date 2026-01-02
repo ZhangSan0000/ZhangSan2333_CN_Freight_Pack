@@ -1,10 +1,14 @@
 {
-  "trainName": "ZS_P62e",
+  "trainName": "ZSold_P62e",
   "trainType": "CC",
 
   "trainModel2": {
-      "modelFile": "P62.mqoz",
-      "textures": [["mat1", "textures/train/P62/p62e.png"]]
+      "modelFile": "p62.mqoz",
+      "textures": [["mat1", "textures/train/p62/p62e.png"],
+                   ["mat3", "textures/train/zhangsan/p62frame.png"],
+                   ["mat6", "textures/train/zhangsan/inner1.png"],
+                   ["mat7", "textures/train/zhangsan/inner2.png"],
+                   ["mat101", "textures/train/zhangsan/fengguan.png"]]
   },
   "bogieModel2": {
       "modelFile": "zk2p62.mqoz",
@@ -13,7 +17,7 @@
       "rendererPath":"scripts/Render_zk2p62lun.js"
   },
   "isSingleTrain": true,
-  "buttonTexture": "textures/train/P62/button_P62e.png",
+  "buttonTexture": "textures/train/p62/button_P62e.png",
   "sound_BrakeRelease": "train.o220_release",
   "sound_BrakeRelease2": "train.brakeR_w",
   "sound_DoorOpen": "train.door",

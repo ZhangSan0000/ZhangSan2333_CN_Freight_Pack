@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd x6bk_mat1.png
+map_Kd pb_mat1.png
 
 newmtl mat101
 Ns 50.000011
@@ -29,7 +29,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd x6bk_mat2.png
+map_Kd pb_mat2.png
 
 newmtl mat3
 Ns 50.000011
@@ -39,7 +39,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd x6bk_mat3.png
+map_Kd pb_mat3.png
 
 newmtl mat4
 Ns 50.000011
@@ -49,7 +49,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd x6bk_mat4.png
+map_Kd pb_mat4.png
 
 newmtl mat5
 Ns 50.000011
@@ -74,19 +74,19 @@ map_d 13.png
 newmtl mat7
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 1
+map_Kd inner1.png
 
 newmtl mat8
-Ns 0.000000
+Ns 54.756012
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 1
+map_Kd inner2.png

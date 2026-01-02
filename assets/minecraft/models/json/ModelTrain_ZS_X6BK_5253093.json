@@ -4,10 +4,11 @@
   
     "trainModel2": {
         "modelFile": "x6bk.mqoz",
-        "textures": [["mat1", "textures/train/X6BK/x6bk_5253093/mat1.png"],
-                     ["mat2", "textures/train/X6BK/x6bk_5253093/mat2.png"],
-                     ["mat3", "textures/train/X6BK/x6bk_5253093/mat3.png"],
-                     ["mat4", "textures/train/X6BK/x6bk_5253093/mat4.png"]]
+        "textures": [["mat1", "textures/train/x6bk/x6bk_5253093/mat1.png"],
+                     ["mat2", "textures/train/x6bk/x6bk_5253093/mat2.png"],
+                     ["mat3", "textures/train/x6bk/x6bk_5253093/mat3.png"],
+                     ["mat4", "textures/train/x6bk/x6bk_5253093/mat4.png"],
+                     ["mat101", "textures/train/zhangsan/fengguan.png"]]
     },
     "bogieModel2": {
         "modelFile": "zk2x6bk.mqoz",
@@ -16,7 +17,7 @@
         "rendererPath":"scripts/Render_zk2x6bklun.js"
     },
     "isSingleTrain": true,
-    "buttonTexture": "textures/train/X6BK/button_x6bk_5253093.png",
+    "buttonTexture": "textures/train/x6bk/button_x6bk_5253093.png",
     "sound_BrakeRelease": "train.o220_release",
     "sound_BrakeRelease2": "train.brakeR_w",
     "sound_DoorOpen": "train.door",
